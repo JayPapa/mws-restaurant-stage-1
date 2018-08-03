@@ -280,11 +280,11 @@ nav h1 a {
   color: #666;
 }
 @media screen and (max-width: 980px) {
-	#breadcrumb {
-		width: calc(100% - 80px);
-	}
 	.inside header {
 		position: inherit;
+	}
+	#breadcrumb {
+		width: calc(100% - 80px);
 	}
 	.inside #map-container {
 		height: 350px;
@@ -299,6 +299,35 @@ nav h1 a {
 		font-size: 25pt;
 	}
 	#reviews-container {
-		width: 100%;
+		width: 95%;
+		padding-right: 0;
+	}
+	#reviews-list li {
+		border-top-left-radius: 10%;
+		border-bottom-right-radius: 10%;
+	}
+	.review-head {
+		background-color: #000;
+		padding: 0 85px;
+    margin: 0 -25px;
+	}
+	.review-head p{
+		color: #fff;
+	}
+	.review-head p:first-child{
+		font-size: 12pt;
+		font-weight: bold;
+	}
+	.review-rating {
+		background-color:#44c767;
+		border:1px solid #18ab29;
+		color:#ffffff;
+		font-size:17px;
+		padding:16px 31px;
+		text-decoration:none;
+	}
+	.inside #footer {
+		position: inherit;
+		width: calc(100% - 50px);
 	}
 }
