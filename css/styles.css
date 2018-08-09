@@ -280,6 +280,9 @@ nav h1 a {
   color: #666;
 }
 @media screen and (max-width: 980px) {
+	nav {
+		height: 0;
+	}
 	.inside header {
 		position: inherit;
 	}
