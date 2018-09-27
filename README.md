@@ -1,4 +1,4 @@
-# Restaurant Reviews Web-App - Front End Web Developer Course
+# Restaurant Reviews Web-App
 ---
 
 ## Project Overview: Stage 1
@@ -17,7 +17,7 @@ With your server running, visit the site: `http://localhost:8000`, and look arou
 The major purpose of this project was to get this site on its way to being a mobile-ready website.
 On a world where mobile devices are always with us, helping us with any daily task, it is essential for web applications to provide content as quickly as possible, and possibly without breaking the user's navigation because an internet disconnection.
 
-## Leaflet.js and Mapbox:
+### Leaflet.js and Mapbox:
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/).
 
